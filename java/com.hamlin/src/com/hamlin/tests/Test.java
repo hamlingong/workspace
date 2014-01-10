@@ -1,6 +1,7 @@
 package com.hamlin.tests;
 
-import com.hamlin.designpatterns.test.DesignPatternTest;
+import com.hamlin.designpatterns.iterator.IteratorTest;
+import com.hamlin.designpatterns.observer.ObserverTest;
 
 public class Test {
 
@@ -11,7 +12,8 @@ public class Test {
 // SynchronizeTest.myThreadTest();
 // SynchronizeTest.myThread2Test();
 // SynchronizeTest.myThread3Test();
-        DesignPatternTest.observerTest();
+        ObserverTest.observerTest();
+        IteratorTest.test();
     }
 
 }

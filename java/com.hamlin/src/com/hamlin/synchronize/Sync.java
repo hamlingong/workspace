@@ -4,7 +4,7 @@ public class Sync {
     public synchronized void test() {
         System.out.println("test begin...");
         try {
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -15,7 +15,7 @@ public class Sync {
         synchronized (Sync.class) {
             System.out.println("test2 begin...");
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

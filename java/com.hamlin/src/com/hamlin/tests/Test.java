@@ -4,6 +4,7 @@ import com.hamlin.designpatterns.abstractfactory.AbstractFactoryTest;
 import com.hamlin.designpatterns.factorymethod.FactoryMethodTest;
 import com.hamlin.designpatterns.iterator.IteratorTest;
 import com.hamlin.designpatterns.observer.ObserverTest;
+import com.hamlin.seniorjava.round.Round;
 import com.hamlin.synchronize.SynchronizeTest;
 
 public class Test {
@@ -20,6 +21,7 @@ public class Test {
         IteratorTest.test();
         FactoryMethodTest.test();
         AbstractFactoryTest.test();
+        Round.test();
 
     }
 

@@ -67,7 +67,7 @@ void printData(int data[], int n) {
 
 int test() {
     int data[] = {10, 23, 22, 14, 12, 15, 37, 99, 30, 223};
-//    insertSort(data, 10);
+    insertSort(data, 10);
     myInsertSort(data, 10);
     printData(data, 10);
     return 0;

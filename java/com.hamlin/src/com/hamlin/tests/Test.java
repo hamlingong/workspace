@@ -8,7 +8,6 @@ import com.hamlin.seniorjava.round.Round;
 import com.hamlin.synchronize.SynchronizeTest;
 
 public class Test {
-
     /**
      * @param args
      */
@@ -24,5 +23,4 @@ public class Test {
         Round.test();
 
     }
-
 }

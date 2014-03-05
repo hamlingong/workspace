@@ -38,15 +38,25 @@ public class Round {
         System.out.println("季利息是：" + i);
 
         /*
-         * 其他舍入方式：
+         * BigDecimal：
          */
         double f = 111231.5585;
         BigDecimal b = new BigDecimal(f);
         double f1 = b.setScale(2, RoundingMode.HALF_UP).doubleValue();
-
         System.out.println("double: " + f1);
 
+        /*
+         *DecimalFormat:
+         *
+         */
         java.text.DecimalFormat df = new java.text.DecimalFormat("#.00");
-        df.format(123.345);
+        System.out.println("DecimalFormat: " + df.format(123.345));
+
+        /*
+         *
+         */
+        double dmp = 3.1415926;
+        String result = String.format("%.2f", dmp);
+        System.out.println("String Double: " + result);
     }
 }

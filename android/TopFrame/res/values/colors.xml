@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tag_dinning_color">#FFFF99</color>
+
+    <color name="yellow">#FFFFCC</color>
+    <color name="blue">#CCFFFF</color>
+    <color name="red">#FFCCCC</color>
+    <color name="purple">#CCCCFF</color>
+    <color name="orange">#FFCC99</color>
+    <color name="green">#CCFFCC</color>
+    <color name="black">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightblue">#99CCFF</color>
+    <color name="darkgreen">#99CC99</color>
+    <color name="lightgreen">#CCFF99</color>
+    <color name="lightorange">#FF9966</color>
+    <color name="lightred">#FF6666</color>
+    <color name="darkblack">#000000</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- text size -->
+    <dimen name="title_size">22px</dimen>
+    <dimen name="detail_size">16px</dimen>
+</resources>

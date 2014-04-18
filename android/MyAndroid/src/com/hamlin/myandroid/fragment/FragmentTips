@@ -1,0 +1,6 @@
+1. Fragment Callback method:
+    onAttach方法：Fragment和Activity建立关联的时候调用。
+    onCreateView方法：为Fragment加载布局时调用。
+    onActivityCreated方法：当Activity中的onCreate方法执行完后调用。
+    onDestroyView方法：Fragment中的布局被移除时调用。
+    onDetach方法：Fragment和Activity解除关联的时候调用。

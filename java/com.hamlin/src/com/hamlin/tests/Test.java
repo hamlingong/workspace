@@ -1,6 +1,6 @@
 package com.hamlin.tests;
 
-import com.hamlin.base.EqualsTest;
+import com.hamlin.interview.ThreadTest;
 
 
 
@@ -23,7 +23,7 @@ public class Test {
 //        SortExchange.test();
 //        InterviewTest.test();
 
-//        ThreadTest.test();
-        EqualsTest.test();
+        ThreadTest.test();
+//        EqualsTest.test();
     }
 }

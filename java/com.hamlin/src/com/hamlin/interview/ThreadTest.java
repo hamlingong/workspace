@@ -14,8 +14,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ThreadTest {
     public static void test() {
         new BaseThread().test();
-        new SemaphoreThread().test();
-        new ReentrantLockThread().test();
+//        new SemaphoreThread().test();
+//        new ReentrantLockThread().test();
     }
 }
 
@@ -59,9 +59,9 @@ class BaseThread {
         public void run() {
             for (int i = 0; i < 10; i++) {
                 synchronized (obj) {
-                    while (!isThreadA) {
+                    while (!isThreadA) {  // 使用while让进程一直等待
                         try {
-                            System.out.println("A::ThreadA.waith()");
+                            System.out.println("A::ThreadA.wait()");
                             obj.wait();
                         } catch (InterruptedException e) {
                             // TODO Auto-generated catch block
@@ -84,9 +84,9 @@ class BaseThread {
         public void run() {
             for (int i = 0; i < 10; i++) {
                 synchronized (obj) {
-                    while (!isThreadB) {
+                    while (!isThreadB) {  // 使用while让进程一直等待
                         try {
-                            System.out.println("B::ThreadB.waith()");
+                            System.out.println("B::ThreadB.wait()");
                             obj.wait();
                         } catch (InterruptedException e) {
                             // TODO Auto-generated catch block
@@ -109,9 +109,9 @@ class BaseThread {
         public void run() {
             for (int i = 0; i < 10; i++) {
                 synchronized (obj) {
-                    while (!isThreadC) {
+                    while (!isThreadC) {  // 使用while让进程一直等待
                         try {
-                            System.out.println("C::ThreadC.waith()");
+                            System.out.println("C::ThreadC.wait()");
                             obj.wait();
                         } catch (InterruptedException e) {
                             // TODO Auto-generated catch block

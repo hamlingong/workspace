@@ -1,0 +1,1 @@
+include ':HttpModuleSample', ':UtilsModule', ':AdapterModuleSample', ':AdapterModule', ':HttpModuleClientInterface', ':HttpModuleClientImplLiteHttp', 'HttpModuleProjectInterfaces', 'HttpModuleClientImplTrinea', 'LibraryHttpModuleImplTrineaHttp', 'LibraryHttpModuleImplLiteHttp'

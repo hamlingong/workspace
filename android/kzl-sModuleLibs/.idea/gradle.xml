@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdapterModule" />
+            <option value="$PROJECT_DIR$/AdapterModuleSample" />
+            <option value="$PROJECT_DIR$/HttpModuleClientImplLiteHttp" />
+            <option value="$PROJECT_DIR$/HttpModuleClientImplTrinea" />
+            <option value="$PROJECT_DIR$/HttpModuleClientInterface" />
+            <option value="$PROJECT_DIR$/HttpModuleProjectInterfaces" />
+            <option value="$PROJECT_DIR$/HttpModuleSample" />
+            <option value="$PROJECT_DIR$/LibraryHttpModuleImplLiteHttp" />
+            <option value="$PROJECT_DIR$/LibraryHttpModuleImplTrineaHttp" />
+            <option value="$PROJECT_DIR$/UtilsModule" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

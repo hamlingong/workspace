@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterModule/AdapterModule.iml" filepath="$PROJECT_DIR$/AdapterModule/AdapterModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterModuleSample/AdapterModuleSample.iml" filepath="$PROJECT_DIR$/AdapterModuleSample/AdapterModuleSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpModuleClientImplLiteHttp/HttpModuleClientImplLiteHttp.iml" filepath="$PROJECT_DIR$/HttpModuleClientImplLiteHttp/HttpModuleClientImplLiteHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpModuleClientImplTrinea/HttpModuleClientImplTrinea.iml" filepath="$PROJECT_DIR$/HttpModuleClientImplTrinea/HttpModuleClientImplTrinea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpModuleClientInterface/HttpModuleClientInterface.iml" filepath="$PROJECT_DIR$/HttpModuleClientInterface/HttpModuleClientInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpModuleProjectInterfaces/HttpModuleProjectInterfaces.iml" filepath="$PROJECT_DIR$/HttpModuleProjectInterfaces/HttpModuleProjectInterfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpModuleSample/HttpModuleSample.iml" filepath="$PROJECT_DIR$/HttpModuleSample/HttpModuleSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryHttpModuleImplLiteHttp/LibraryHttpModuleImplLiteHttp.iml" filepath="$PROJECT_DIR$/LibraryHttpModuleImplLiteHttp/LibraryHttpModuleImplLiteHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryHttpModuleImplTrineaHttp/LibraryHttpModuleImplTrineaHttp.iml" filepath="$PROJECT_DIR$/LibraryHttpModuleImplTrineaHttp/LibraryHttpModuleImplTrineaHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UtilsModule/UtilsModule.iml" filepath="$PROJECT_DIR$/UtilsModule/UtilsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kzl-sModuleLibs.iml" filepath="$PROJECT_DIR$/kzl-sModuleLibs.iml" />
+    </modules>
+  </component>
+</project>
+

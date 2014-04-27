@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HttpModuleSample</string>
+    <string name="no_data">无法解析结果</string>
+    <string name="no_net">无可用网络</string>
+</resources>

@@ -1,0 +1,37 @@
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://www.bugsense.com/gradle/"
+    }
+}
+
+dependencies {
+    compile project(":core")
+    compile "com.bugsense.trace:bugsense:3.5"
+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:3.6'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.3"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 19
+        testPackageName "com.novoda.imageloader.acceptance"
+    }
+
+    // define these in a local gradle.properties
+    if (hasProperty('signKeyStore')) {
+        signingConfigs {
+            release {
+                storeFile file(signKeyStore)
+                storePassword signStorePass
+                keyAlias signAlias
+                keyPassword signAliasPassword
+            }
+        }
+    }
+}
